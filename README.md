@@ -23,8 +23,8 @@ Installation
 
     bash
 
-git clone https://github.com/yourusername/background-image-updater.git
-cd background-image-updater
+git clone https://github.com/Kisbivaly/MetRada.git
+cd MetRada
 
 Install Required Packages
 
@@ -46,7 +46,7 @@ Usage
 
     bash
 
-python background_image_updater.py
+python Metrada.py
 
 The script will continuously fetch and update the desktop wallpaper with the latest radar image every 10 minutes.
 
