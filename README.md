@@ -84,6 +84,5 @@ This project is licensed under the GNU General Public License (GPL) v3.0. See th
 Acknowledgements
 
     Python Standard Library
-    PyInstaller for creating standalone executables
     Requests library for HTTP requests
     Hungarian Meteorological Service for providing radar images
