@@ -57,7 +57,7 @@ std::string get_latest_image_url() {
     oss << std::put_time(&utc_time, "%Y%m%d_%H%M");
     
     std::string formatted_time = oss.str();
-    std::string image_url = "https://www.met.hu/img/RccW/RccW" + formatted_time + ".jpg";
+    std::string image_url = "https://www.met.hu/img/RccV/RccV" + formatted_time + ".jpg";
     
     return image_url;
 }
