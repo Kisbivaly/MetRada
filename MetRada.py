@@ -11,7 +11,9 @@ def get_latest_image_url():
     # Kerekítés az utolsó 10 percre osztható időpontra
     rounded_time = now_utc - datetime.timedelta(minutes=now_utc.minute % 10, seconds=now_utc.second, microseconds=now_utc.microsecond)
     formatted_time = rounded_time.strftime('%Y%m%d_%H%M')
-    image_url = f"https://www.met.hu/img/RccW/RccW{formatted_time}.jpg"
+    # smaller file format https://www.met.hu/img/RccW/RccW{formatted_time}.jpg
+    # bigger file format  https://www.met.hu/img/RccV/RccV{formatted_time}.jpg
+    image_url = f"https://www.met.hu/img/Rccv/Rccv{formatted_time}.jpg"
     return image_url
 
 def download_image(url, save_path):
