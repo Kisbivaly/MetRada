@@ -13,7 +13,7 @@ def get_latest_image_url():
     formatted_time = rounded_time.strftime('%Y%m%d_%H%M')
     # smaller file format https://www.met.hu/img/RccW/RccW{formatted_time}.jpg
     # bigger file format  https://www.met.hu/img/RccV/RccV{formatted_time}.jpg
-    image_url = f"https://www.met.hu/img/Rccv/Rccv{formatted_time}.jpg"
+    image_url = f"https://www.met.hu/img/RccV/RccV{formatted_time}.jpg"
     return image_url
 
 def download_image(url, save_path):
